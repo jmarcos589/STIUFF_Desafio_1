@@ -2,7 +2,7 @@ import csv
 import functions
 import random
 
-files = [] # Abre o csv e guarda na varável files
+files = [] # Abre o csv e guarda na variável files
 with open('alunos.csv', 'r') as student_archive:
     student_info = csv.reader(student_archive)
     for line in student_info:
